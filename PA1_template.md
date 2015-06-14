@@ -34,7 +34,7 @@ colnames(steps) <- c("Date", "Steps")
 ### 2) Make a histogram of the total number of steps taken each day
 
 ```r
-with(steps, {
+with(steps, { 
     par(oma=c(2,0,0,0), mar=c(6,6,3,0), mgp=c(5,1,0), las=3)
     barplot(
       height= Steps,

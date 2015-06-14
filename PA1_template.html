@@ -85,7 +85,7 @@ colnames(steps) &lt;- c(&quot;Date&quot;, &quot;Steps&quot;)</code></pre>
 </div>
 <div id="make-a-histogram-of-the-total-number-of-steps-taken-each-day" class="section level3">
 <h3>2) Make a histogram of the total number of steps taken each day</h3>
-<pre class="r"><code>with(steps, {
+<pre class="r"><code>with(steps, { 
     par(oma=c(2,0,0,0), mar=c(6,6,3,0), mgp=c(5,1,0), las=3)
     barplot(
       height= Steps,
